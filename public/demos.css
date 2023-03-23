@@ -62,7 +62,6 @@ h3 {
 	margin: 1em 0.75em 0;
 }
 p, li {
-  width: 45em;
 	max-width: 90%;
 }
 p.goback {
@@ -75,7 +74,6 @@ ul.longerText li {
 a {
 	color: #000000;
 	text-decoration: none;
-	margin-right: 2em;
 }
 li span{
 	background-color: #000000;
@@ -152,6 +150,14 @@ a:hover, a:focus, a:active {
   }
   
 .dark-mode h1, .dark-mode a {
-color: #f2f2f2;
+	color: #f2f2f2;
+}
+
+.dark-mode .able-transcript {
+	background-color: #000000;
+}
+
+.dark-mode .able-transcript div .able-transcript-desc{
+	background-color: #000000;
 }
 
