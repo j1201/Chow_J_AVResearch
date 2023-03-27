@@ -25,7 +25,7 @@ General:
   
 ## Built with
 
-[Hyperaudio] (https://github.com/hyperaudio/hyperaudio-lite) 
-[Plyr] (https://github.com/sampotts/plyr)
+[Hyperaudio](https://github.com/hyperaudio/hyperaudio-lite) 
+[Plyr](https://github.com/sampotts/plyr)
 Node.js
 Express 
