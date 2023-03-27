@@ -1,0 +1,113 @@
+.media-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    margin-bottom: 1em;
+}
+
+.media-container {
+    display: flex;
+    justify-content:flex-start;
+    margin: 2em 4em;
+    // width: 100vw;
+    flex-wrap: wrap;
+    gap: 2em;
+
+    @include desktop {
+        flex-wrap: nowrap;
+    }
+}
+
+.media-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#hyperplayer {
+    width: 100%;
+}
+
+.hyperaudio-transcript {
+    overflow-y:scroll; 
+    height:100vh; 
+    position:relative; 
+    border-style:dashed; 
+    border-width: 1px; 
+    border-color:#999; 
+    padding: 8px;
+    width: 100%;
+
+    @include desktop {
+        width: 50%;
+    }
+
+    span , p {
+        line-height: 25px;
+    }
+}
+
+.hyperaudio-transcript .strikethrough {
+    text-decoration: line-through;
+}
+
+.hyperaudio-transcript .annotation, .hyperaudio-transcript .parannotation{
+    opacity: 0.7;
+}
+
+.hyperaudio-transcript .highlight {
+    background-color: yellow;
+}
+
+.hyperaudio-transcript .highlight.active {
+background-color: lightGreen;
+}
+
+.hyperaudio-transcript  header {
+    font-size: 200%;
+}
+
+.hyperaudio-transcript a, a.link {
+    border: 0px;
+}
+
+.hyperaudio-transcript .read {
+    color: #000;
+    background-color: rgb(232, 232, 104);
+}
+
+.hyperaudio-transcript .active > .active {
+    color: #000;
+}
+
+.hyperaudio-transcript .unread {
+    color: #a7a7a7;
+}
+
+.hyperaudio-transcript .search-match {
+    background-color: pink;
+}
+
+.hyperaudio-transcript .share-match {
+    background-color: #66ffad;
+}
+
+.hyperaudio-transcript sub:before {
+content: '\231C';
+}
+
+.hyperaudio-transcript sub.highlight-duration:before {
+content: '\231D';
+}
+
+.hyperaudio-transcript h5 {
+    font-size: 130%;
+}
+
+[data-m] {
+    cursor: pointer;
+}
+
+.speaker {
+    font-weight: bold;
+}

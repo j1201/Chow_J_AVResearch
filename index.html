@@ -2,24 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Video with captions, subtitles, chapters, and a transcript | Able Player Demos</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/demos.css" type="text/css">
-
-<!-- Dependencies -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
-
-<!-- Able Player CSS -->
-<link rel="stylesheet" href="/build/ableplayer.min.css" type="text/css"/>
-
-<!-- Able Player JavaScript -->
-<script src="/build/ableplayer.js"></script>
-
+<link rel="stylesheet" href="css/main.css">
+<title>Accessible Multimedia Web Player</title>
 </head>
-
 <body>
     <header>
         <h1 class="title">Accessible Multimedia Web Player</h1>
@@ -30,16 +18,14 @@
         </ul>
     </nav>
     <div class="media-containter">
-        <div class="video-container">
-            <a href="/video"><img src="/media/wwa.jpg" alt="Image of words World Wide Access in white box"><p>Video Player Demo</p></a>
+        <div>
+            <a href="/video"><img src="assets/video-tn.jpg" alt="Thumbnail of How do we make people more aware of their personal data? video"><p>Video Player Demo</p></a>
         </div>
-        <div class="video-container">
-           
-            <a href="/audio"> <img src="/media/audio.jpg" alt="Image of words World Wide Access in white box"><p>Audio Player Demo</p></a>
+        <div>
+            <a href="/audio"> <img src="assets/audio-tn.jpg" alt="Thumbnail of MozCast - Episode 1 - Our Data Future"><p>Audio Player Demo</p></a>
         </div>
     </div>
 
 </body>
-<script src="/build/darktheme.js"></script>
-
+<script src="js/main.js" type="module" defer></script>
 </html>

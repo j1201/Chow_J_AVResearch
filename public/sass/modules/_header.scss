@@ -1,0 +1,41 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 3em 4em;
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+nav {
+    padding: 1em 4em;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        float: left;
+        display: block;
+        padding: 8px;
+        font-size: 1.2em;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+}
+
+#dark-mode-btn {
+    float: right;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
+}

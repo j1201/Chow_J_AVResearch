@@ -1,5 +1,5 @@
 {
-  "name": "routingdemo",
+  "name": "multimedia player demo",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -8,6 +8,7 @@
   "author": "Joanna Chow",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "plyr": "^3.7.8"
   }
 }
