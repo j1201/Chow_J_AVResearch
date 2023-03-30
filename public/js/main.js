@@ -17,7 +17,9 @@ if (HyperaudioLite) {
 }
 
 // Importing plyr player 
-const players = Array.from(document.querySelectorAll('.plyr-player')).map((p) => new Plyr(p));
+const players = Array.from(document.querySelectorAll('.plyr-player')).map((p) => new Plyr('p', 
+{ focused: false, global: true }
+));
 
-window.player = player;
+window.player = players;
 
